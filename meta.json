@@ -1,0 +1,26 @@
+{
+ "name": "rsync",
+ "version": "3.3.0",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "rsync-3.3.0.tar.gz"
+ ],
+ "desc": "rsync 3.3.0: copies and synchronises files (over ssh with the openssh package)",
+ "file": "rsync-3.3.0.tpkg",
+ "size": 301401,
+ "sha256": "7d6a3c47dc1a8574b003aa2fe419134f76fba4385ba1ba695ba5450943d0374a",
+ "unpacked": 569048,
+ "min_build": 619,
+ "depends": [
+  "bash"
+ ],
+ "commands": {
+  "rsync": "bin/rsync",
+  "rsync-ssl": "bin/rsync-ssl"
+ }
+}
